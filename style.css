@@ -1,0 +1,280 @@
+body {
+	margin:0;
+	padding:0;
+	
+}
+
+div#nav {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	background-color: white;
+}
+
+div#nav div.nav_left img {
+	width:100px;
+	height: 80px;
+	vertical-align: middle;
+}
+
+div#nav div.nav_left h3 {
+	font-family: logo;
+	display: inline-block;
+	margin:0 10px;
+	vertical-align: middle;
+	position: relative;
+	right:20px;
+}
+
+div#nav div.nav_left{
+	float:left;
+/*	position: fixed;*/
+}
+div#nav div.nav_right{
+	float:right;
+	margin-top:30px;
+/*	position: fixed;
+	right: 10px;*/
+}
+
+div.nav_right a {
+	text-decoration: none;
+	text-align: center;
+	font-size:17px;
+	font-family: logo;
+	padding: 14px 20px;
+	color:#a47c48;
+}
+
+a.active {
+	color:#fff !important;
+	background-color: #ad895a;
+	border-radius: 15px 0px 15px 0px;
+}
+
+a.active:hover {
+	background-color: #a47c48;
+}
+
+.clear {
+	clear: both;
+}
+
+div#banner img {
+	width:100%;
+	object-fit:cover;
+}
+
+div#banner i {
+	font-size: 130px;
+	color:#b6966c;
+	position: absolute;
+	top: 60%;
+	left:47%;
+}
+
+div.quote {
+	font-family: unicode;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 30px;
+	position: absolute;
+	top: 78%;
+	left: 480px;
+	padding:30px;
+}
+
+div#offer, div#ourshop, div#todayspecial, div#daily_menu {
+	width:80%;
+	margin:auto;
+	background-color: white;
+
+}
+
+div#offer div.first_offer, div#ourshop, div#todayspecial, div#daily_menu{
+	text-align: center;
+	margin:60px auto;
+} 
+
+div.first_offer h3, div#ourshop h3, div#todayspecial h3, div#daily_menu h3{
+	font-family: all;
+	font-size: 30px;
+	color:#ad895a;
+}
+
+div.first_offer hr, div#ourshop hr,div#todayspecial hr, div#daily_menu hr{
+	width: 400px;
+	color: #6a571b;
+}
+
+div.first_offer p, div.second_offer p, div#todayspecial p, div#daily_menu p{
+	font-family: verdana;
+	font-size: 17px;
+	padding:30px 0px;
+	line-height: 30px;
+}
+
+div.second_offer div, div.photo_collec div{
+	height: auto;
+	text-align: center;
+	padding:0px;
+}
+
+div.second_offer, div.photo_collec {
+	display: flex;
+	text-align: center;
+}
+
+div.second_offer div, div.photo_collec div{
+	flex: 1;
+}
+
+div.second_offer img{
+	width: 80px;
+	height: 80px;
+}
+
+
+.coffee h3, .tea h3, .cupcake h3 {
+	font-family: all;
+	font-size: 25px;
+	color:#666666;
+}
+
+div.second_offer p {
+	text-align: justify-all;
+}
+
+div.photo, div.menu_left {
+	width: 30%;
+	float: left;
+}
+
+div.info, div.menu_right {
+	width: 70%;
+	float:right;
+	background-color: white;
+}
+
+div.clear {
+	clear: both;
+}
+
+div#ourshop div.photo img {
+	width: 365px;
+	height: 340px;
+}
+
+div.info h4, div.menu_right h4{
+	font-family: all;
+	font-size: 18px;
+	color:black;
+	text-align: left;
+	padding: 0px 50px;
+	text-transform: uppercase;
+}/*
+
+div#daily_menu div.menu_right h4{
+	font-family: all;
+	font-size: 18px;
+	color:black;
+	text-align: left;
+	padding: 0px 50px;
+}*/
+
+div.info p {
+	font-family: verdana;
+	font-size: 15px;
+	color:#808080;
+	padding: 0px 50px;
+	line-height: 30px;
+	text-align: justify;
+}
+div.one_flex {
+	width: 700px;
+}
+div.two_flex div {
+	border: 1px solid #bbb;
+	font-size:30px;
+	text-align: center;
+	color:#fff;
+}
+
+div.two_flex {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+div.two_flex div.one_grid {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+div.photo_collec div.one_flex {
+	flex-basis: 70%;
+
+}
+
+div.one_flex img {
+	width: 630px;
+	height: 508px;
+	float: left;
+}
+
+div.photo_collec div.two_flex {
+	flex-basis: 50%;
+	grid-gap: 10px;
+	margin: 0px 70px;
+	height: 200px;
+	border:0px solid white;
+}
+
+
+div.one_grid img {
+	max-width: 100%;
+    height: 100%;
+}
+
+div.two_grid, div.three_grid {
+	margin:0px;
+	padding: 0px;
+}
+div.two_grid img , div.three_grid img{
+	
+	max-width: 100%;
+    height: 100%;
+}
+
+div.menu_left img {
+	width: 350px;
+	height: 300px;
+}
+
+div.menu_right {
+	width: 60%;
+}
+
+div.menu_right li {
+	padding: 5px 5px;
+	text-align: left;
+}
+
+div#footer {
+	background-color: black;
+	color: white;
+	height: 50px;
+
+}
+
+div#footer label, div#footer span {
+	font-family: all;
+	font-size: 20px;
+	line-height: 50px;
+	margin:0px 160px;
+	color:white;
+}
+
+div#footer span {
+	margin-left: 500px;
+}
+
+
